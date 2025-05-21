@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достижения</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+    .text-hover:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(95, 201, 46);">
+    <h1 style="font-size: 96px";>Мои достижения</h1>
+    <div style="text-align: end">
+        <img class="text-hover" src="cool.png"; style="width: 10px 0% 300px"; align="right"; alt="like"></a> 
+   </div>
+    <h1 style="text-align: center;">За свою жизнь я получил несколько Золотых Значков ГТО и скоро получу ещё один, закончил 6 классов с отличием, участвовал в Конкурсе Чтецов, а также поучаствовал во многих конкурсах о которых уже не помню.
+        В Кванториуме я научился программировать на языке Python, Arduino, CSS. Во время работы с Python'ом, в виде финального проета, мы сделали игру-змейку. Потом, при изучении платы Arduino Uno, мы собрали и запрограммировали 5 светодиодов на несколько режимов
+    И сейчас вы видите мою финальную работу - работу с сайтами или CSS. </h1>
+        <style>
+            body {
+              margin: 0;
+              height: 100vh;
+              position: relative;
+            }
+            .centered-text {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-80%, 15%);
+            }
+        </style>
+        <div class="centered-text">
+            <button type="button" class="btn btn-primary btn-lg px-4" onclick="window.location.href='index.html';">Вернуться на главную</button>
+        </div>
+</body>
+</html>
