@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilda</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <style>
+    body {
+      background-image: url('funny-klev-club-8kxd-p-smeshnie-kartinki-kalivana-2.jpg');
+      background-size: cover;
+      background-repeat: repeat;
+    }
+  </style>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+    }
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-43%, -70%); /* корректировка смещения */
+    }
+  </style>
+  <div class="centered-text"><h3 style="text-align: center;">проект</h3>
+    <h1 id="Наверх" style="text-align: center;">Патрушев Ефим</h1>
+    <h4 style="text-align: center;">ФИНАЛЬНЫЙ ПРОЕКТ</h4>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-primary btn-lg px-4" onclick="window.location.href='about.html';">Обо мне</button>
+      <button type="button" class="btn btn-primary btn-lg px-4" onclick="window.location.href='achivments.html';">Достижения</button>
+    </div>
+  </div>
+      <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+    }
+    .centered-txt {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-53%, 610%); 
+    }
+  </style>
+  <div class="centered-txt"><h3 style="text-align: center;"><button type="button" class="btn btn-primary btn-lg px-4" onclick="window.location.href='results.html';">Итог</button></h3>
+  </div>
+
+</body>
+</html>
